@@ -1,12 +1,18 @@
 # TITANIC-DATA-PROJECT
 import pandas as pd
+
 from pandas import Series,DataFrame
+
 import seaborn as sns
+
 titanic_df=pd.read_csv(r'C:\Users\Aparna\Desktop\python 3.11\Lib\site-packages\jupyter_core\tests\dotipython_empty\profile_default\train.csv')
 print(titanic_df.info())
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 %matplotlib inline
+
 titanic_df['Age'].hist(bins=100)
 output:![image](https://github.com/Upamanyu2003/TITANIC-DATA-PROJECT/assets/134735417/9c20263f-e0f7-4b91-b342-8559d8fc38fc)
 titanic_df['Fare'].hist(bins=70,color='black')
