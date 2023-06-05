@@ -7,6 +7,7 @@ import seaborn as sns
 
 titanic_df=pd.read_csv(r'C:\Users\Aparna\Desktop\python 3.11\Lib\site-packages\jupyter_core\tests\dotipython_empty\profile_default\train.csv')
 print(titanic_df.info())
+
 import numpy as np
 
 import matplotlib.pyplot as plt
